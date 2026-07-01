@@ -4,10 +4,14 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InventarioApplicationTests {
+class InventarioApplicationTest {
 
-	@Test
-	void contextLoads() {
+    @Test
+    void contextLoads() {
+    }
+@Test
+	void mainEjecutaAplicacion() {
+		InventarioApplication.main(new String[] {});
 	}
 
 }
